@@ -163,7 +163,7 @@ footer a {
 }
 
 #copyright {
-  width: 60%;
+  width: 30%;
   font-size: 0.75em;
   margin: 0 auto;
   padding: 1em;
@@ -171,7 +171,7 @@ footer a {
 }
 
 #address {
-  width: 30%;
-  margin: 2em auto;
+  width: 20%;
+  margin: 1em auto;
   padding-bottom: 1em solid #c8e7f0;;
 }
