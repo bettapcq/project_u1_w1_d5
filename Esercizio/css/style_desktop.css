@@ -24,7 +24,7 @@ h3 {
 }
 
 p {
-  font-size: 0.75em;
+  font-size: 1em;
   margin: 0.7em 0.5em;
 }
 
@@ -75,16 +75,19 @@ main img {
 }
 
 #img_box {
+  box-sizing: border-box;
   display: inline-block;
   align-items: center;
-  width: 30%;
+  width: 20vw;
 }
 
 #central_box {
+  box-sizing: border-box;
   display: inline-block;
+  width:40vw;
+  margin: 1em;
   text-align: left;
   padding: 3em;
-  padding-left: 0;
 }
 
 #orange_box {
@@ -123,6 +126,8 @@ aside img {
 }
 
 .aside_box {
+  width: 30%;
+  display: inline-block;
   margin-bottom: 1.5em;
   border: 1px solid #dee1e3;
 }
