@@ -71,20 +71,18 @@ main button {
 }
 
 main img {
+  width: 100%;
   border-radius: 500px;
 }
 
 #img_box {
-  box-sizing: border-box;
   display: inline-block;
-  align-items: center;
-  width: 20vw;
+  width: 30%;
 }
 
 #central_box {
-  box-sizing: border-box;
   display: inline-block;
-  width:40vw;
+  width: 40%;
   margin: 1em;
   text-align: left;
   padding: 3em;
@@ -153,7 +151,7 @@ footer h2 {
 
 footer ul {
   margin: 0 auto;
-  text-align: center;
+  text-align: left;
   font-size: 0.75em;
   line-height: 1.5em;
 }
@@ -162,4 +160,18 @@ footer a {
   font-family: "Open Sans", sans-serif;
   font-weight: normal;
   color: #c8e7f0;
+}
+
+#copyright {
+  width: 60%;
+  font-size: 0.75em;
+  margin: 0 auto;
+  padding: 1em;
+  border-top: 1px solid ;
+}
+
+#address {
+  width: 30%;
+  margin: 2em auto;
+  padding-bottom: 1em solid #c8e7f0;;
 }

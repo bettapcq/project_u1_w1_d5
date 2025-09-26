@@ -156,13 +156,14 @@ i {
 }
 
 #copyright {
-  width: 60%;
-  font-size: 0.75em;
+  width: 25%;
+  font-size: 0.35em;
   margin: 0 auto;
   padding: 1em;
   border-top: 1px solid;
 }
 
 #address {
+  width: 50%;
   padding-bottom: 2em;
 }
